@@ -1,7 +1,5 @@
 'use strict';
 
-import superagent from 'superagent';
-
 const apiURL = 'https://sos-sms.herokuapp.com';
 
 export default (error, userID, message) => {

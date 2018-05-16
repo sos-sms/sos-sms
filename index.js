@@ -1,8 +1,10 @@
 'use strict';
 
+import superagent from 'superagent';
+
 const apiURL = 'https://sos-sms.herokuapp.com';
 
-const sossms = (error, userID, message) => {
+module.exports = (error, userID, message) => {
   return superagent.post(`${apiURL}/api/messages/${userID}`)
     .send({ error, message })
     .then((data) => {
@@ -12,5 +14,3 @@ const sossms = (error, userID, message) => {
       throw new Error(err);
     });
 };
-
-export default sossms;

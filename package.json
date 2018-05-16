@@ -1,7 +1,7 @@
 {
   "name": "sos-sms",
   "version": "1.0.0",
-  "description": "",
+  "description": "Send error messages via Twilio and save to a database with ease.",
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
@@ -12,6 +12,12 @@
   },
   "keywords": [],
   "author": "",
+  "contributors": [
+    "Carl Olson",
+    "Cara Ottmar",
+    "Sarah Bixler",
+    "Zachary Schumpert"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/colson10/sos-sms/issues"

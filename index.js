@@ -2,7 +2,7 @@
 
 const apiURL = 'https://sos-sms.herokuapp.com';
 
-module.exports.sossms = (error, userID, message) => {
+const sossms = (error, userID, message) => {
   return superagent.post(`${apiURL}/api/messages/${userID}`)
     .send({ error, message })
     .then((data) => {
@@ -12,3 +12,5 @@ module.exports.sossms = (error, userID, message) => {
       throw new Error(err);
     });
 };
+
+export default sossms;

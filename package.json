@@ -1,10 +1,12 @@
 {
   "name": "sos-sms",
-  "version": "1.0.4",
+  "version": "1.2.0",
   "description": "Send error messages via Twilio and save to a database with ease.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "babel index.js -d build",
+    "start": "babel / -d build && node index.js"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,10 @@
   },
   "homepage": "https://github.com/colson10/sos-sms#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.3",
     "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
     "babel-register": "^6.26.0",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^12.1.0",

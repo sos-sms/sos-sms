@@ -1,6 +1,7 @@
 # sos-sms
 
-[![Node.js Version][node-version-image]][node-version-url]
+[![Node.js Version][node-version-image]][node-version-url]  
+[![NPM Downloads][downloads-image]][downloads-url]    
 
 Send error messages via Twilio with ease!
 
@@ -36,3 +37,6 @@ Carl Olson, Cara Ottmar, Sarah Bixler, Zachary Schumpert
 
 [node-version-image]: https://img.shields.io/node/v/http-errors.svg
 [node-version-url]: https://nodejs.org/en/download/
+[downloads-url]: https://www.npmjs.com/package/sos-sms  
+[downloads-image]: https://img.shields.io/npm/dm/sos-sms.svg  
+

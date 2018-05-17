@@ -2,7 +2,7 @@
 
 [![Node.js Version][node-version-image]][node-version-url]
 
-Send error messages via Twilio with ease.
+Send error messages via Twilio with ease!
 
 ## Install
 

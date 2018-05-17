@@ -30,5 +30,9 @@ The ```userID``` is a unique code that a user will receive after registering an 
 
 [MIT](LICENSE)
 
+## Copyright
+
+Carl Olson, Cara Ottmar, Sarah Bixler, Zachary Schumpert
+
 [node-version-image]: https://img.shields.io/node/v/http-errors.svg
 [node-version-url]: https://nodejs.org/en/download/

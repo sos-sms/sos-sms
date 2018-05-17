@@ -1,12 +1,11 @@
 {
   "name": "sos-sms",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Send error messages via Twilio and save to a database with ease.",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
     "test": "jest --coverage",
-    "build": "babel index.js -d build",
-    "start": "babel / -d build && node index.js"
+    "build": "babel index.js -d build"
   },
   "repository": {
     "type": "git",

@@ -1,9 +1,10 @@
 # sos-sms
 
-[![Node.js Version][node-version-image]][node-version-url]  
-[![NPM Downloads][downloads-image]][downloads-url]    
+[![Node.js Version][node-version-image]][node-version-url]  [![NPM Downloads][downloads-image]][downloads-url]    
 
 Send error messages via Twilio with ease!
+
+Contributors: [Carl Olson](https://github.com/colson10), [Cara Ottmar](https://github.com/cottmar), [Sarah Bixler](https://github.com/sarasaurus), [Zachary Schumpert](https://github.com/buphnezz)
 
 ## Install
 
@@ -30,10 +31,6 @@ The ```userID``` is a unique code that a user will receive after registering an 
 ## License
 
 [MIT](LICENSE)
-
-## Copyright
-
-Carl Olson, Cara Ottmar, Sarah Bixler, Zachary Schumpert
 
 [node-version-image]: https://img.shields.io/node/v/http-errors.svg
 [node-version-url]: https://nodejs.org/en/download/

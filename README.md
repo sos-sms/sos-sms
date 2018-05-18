@@ -35,7 +35,7 @@ The ```userID``` is a unique code that a user will receive after registering an 
 [node-version-image]: https://img.shields.io/node/v/http-errors.svg
 [node-version-url]: https://nodejs.org/en/download/
 [downloads-url]: https://www.npmjs.com/package/sos-sms  
-[downloads-image]: https://img.shields.io/npm/dm/sos-sms.svg  
+[downloads-image]: https://img.shields.io/npm/dw/sos-sms.svg  
 [travis-image]: https://travis-ci.org/colson10/sos-sms.svg?branch=master
 [travis-url]: https://travis-ci.org/colson10/sos-sms
 

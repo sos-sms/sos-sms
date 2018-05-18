@@ -1,6 +1,6 @@
 # sos-sms
 
-[![Node.js Version][node-version-image]][node-version-url]  [![NPM Downloads][downloads-image]][downloads-url]    
+[![Node.js Version][node-version-image]][node-version-url]  [![NPM Downloads][downloads-image]][downloads-url][![Build Status][travis-image]][travis-url][![Test Coverage][coveralls-image]][coveralls-url]
 
 Send error messages via Twilio with ease!
 
@@ -36,4 +36,7 @@ The ```userID``` is a unique code that a user will receive after registering an 
 [node-version-url]: https://nodejs.org/en/download/
 [downloads-url]: https://www.npmjs.com/package/sos-sms  
 [downloads-image]: https://img.shields.io/npm/dm/sos-sms.svg  
-
+[travis-image]: https://img.shields.io/travis/jshttp/sos-sms.svg
+[travis-url]: https://travis-ci.org/jshttp/sos-sms
+[coveralls-image]: https://img.shields.io/coveralls/jshttp/sos-sms.svg
+[coveralls-url]: https://coveralls.io/r/jshttp/sos-sms

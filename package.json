@@ -1,6 +1,6 @@
 {
   "name": "sos-sms",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Send error messages via Twilio and save to a database with ease.",
   "main": "build/index.js",
   "scripts": {
